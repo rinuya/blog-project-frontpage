@@ -1,5 +1,9 @@
 # blog-project-frontpage
 
+/////insert link here//////
+
+Here, I only provide the frontpage (userpage). I plan on showing the backend and admin functionalitites aswell, though that could be done by video only.
+
 ### Requirements
 
 These are the requirements received from <a href="https://www.theodinproject.com/lessons/nodejs-blog-api"><b>The Odin Project</b></a> as well as some of my own requirements. It also involves planning out Schemas and other design-elements.
