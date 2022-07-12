@@ -4,10 +4,32 @@
 
 These are the requirements received from <a href="https://www.theodinproject.com/lessons/nodejs-blog-api"><b>The Odin Project</b></a> as well as some of my own requirements. It also involves planning out Schemas and other design-elements.
 
-##### Backend:
+##### Backend & Admin:
 <ul>
-<li>JWT verification for protected routes</li>
+  <li>JWT verification for protected routes</li>
+  <li>Get posts, create posts (w html), edit, delete and publish/unpublish posts.</li>
+  <li>Get comments, create comments, approve/unapprove them</li>
+  <li>Post Schema: {title, content, img, tags, date, author, comments, punlic}</li>
+  <li>Comment Schema: {content, date, alias/author, approved}</li>
+  <li>Page querying should be available as well as filters (published/unpublished)</li>
+  <li>API Structure: post > post:id > comments > comment:id </li>
 </ul>
+
+##### User (frontend):
+<ul>
+  <li>View Blogposts</li>
+  <li>Comment on them</li>
+  <li>Filter by tags, title etc.</li>
+  <li>Keep UI simple and clean. It's purpose is only to read on the page and keep up with the author</li>
+</ul>
+
+
+### Tools used
+
+For this project, I was working with React to create interactive and responsive UIs. I also used TailwindCSS again. I experimented with different component libraries, with the focus on having as much flexibility as possible. DaisyUI really resonated with me. I use their regular HTML components and not their react parts, to be able to change them more freely and also extend them or just remove unwanted parts.
+
+For the Backend, I used Express (NodeJS) and MongoDB.
+
 
 ### Mistakes and Learnings:
 
