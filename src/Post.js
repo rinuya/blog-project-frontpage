@@ -24,7 +24,7 @@ function Post(props) {
   async function fetchPost () {
     try{
       let token = await localStorage.getItem("token");
-      let response = await fetch("http://localhost:3000/public/posts/post", {
+      let response = await fetch("https://shrouded-wave-21751.herokuapp.com/public/posts/post", {
           method: "POST",
           headers: {
               "Content-Type": "application/json",

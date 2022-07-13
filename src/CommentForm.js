@@ -18,7 +18,7 @@ function CommentForm(props) {
             return alert("Comment should be between 3 and 120 characters")
         }
         
-        let url = "http://localhost:3000/public/posts/"+comment.postid+"/comments/create-comment"
+        let url = "https://shrouded-wave-21751.herokuapp.com/public/posts/"+comment.postid+"/comments/create-comment"
         try{
             let response = await fetch(url, {
                 method: "POST",

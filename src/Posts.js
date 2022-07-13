@@ -13,7 +13,7 @@ function Posts() {
 
   async function fetchPosts () {
     try{
-      let response = await fetch("http://localhost:3000/public/posts");
+      let response = await fetch("https://shrouded-wave-21751.herokuapp.com/public/posts");
       response = await response.json();
       setData(response);
       setDataReceived(true)
