@@ -3,6 +3,8 @@
 Link to Userpage here, see below for more info on admin page!
 https://rinuya.github.io/blog-project-frontpage/
 
+(note: github does not redirect you, click on "Posts" or on the Title in the Navigation area to get to the content!)
+
 Here, I only provide the frontpage (userpage). I plan on showing the backend and admin functionalitites aswell, though that could be done by video only.
 
 ### Requirements
