@@ -1,6 +1,7 @@
 # blog-project-frontpage
 
-/////insert link here//////
+Link to Userpage here, see below for more info on admin page!
+https://rinuya.github.io/blog-project-frontpage/
 
 Here, I only provide the frontpage (userpage). I plan on showing the backend and admin functionalitites aswell, though that could be done by video only.
 
